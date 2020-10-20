@@ -1,0 +1,71 @@
+* {
+    margin: 5px;
+    padding: 5px;
+  }
+  body {
+    font-family: Georgia, serif;
+    background: #96BBBB repeat;
+    color: #414535;
+  }
+  header h1 {
+    font-size: 300%;
+    font-family: Georgia, serif;
+    color: #414535;
+    text-align: left;
+  }
+  nav ul {
+    background: #618985;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  nav ul li {
+    background: #618985;
+    padding: 15px;
+    display: inline-block;
+  }
+
+  nav ul li a {
+    color: #414535;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    color: #C0C0C0;
+  }
+  section {
+    padding: 5px;
+    margin: 10px;
+    border: double 6px black;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  section article {
+    border: 2px solid black;
+    background-image: url(https://www.fg-a.com/wallpapers/white-stone-1280.jpg);
+  }
+  footer {
+    background: #618985;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+  footer p {
+    text-align: center;
+    font-weight: normal;
+    font-size: 90%;
+  }
+  footer a {
+    color: #414535;
+  }
+  footer a:hover {
+    color: #C0C0C0;
+  }
+  wrapper {
+    margin: 0 auto 0 auto;
+    width: 960px;
+  }
