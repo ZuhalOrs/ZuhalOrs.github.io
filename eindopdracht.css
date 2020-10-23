@@ -19,18 +19,18 @@
     margin: 0px;
     border-radius: 10px 10px 10px 10px;
   }
-
   nav ul li {
     background: #618985;
     padding: 15px;
     display: inline-block;
   }
-
   nav ul li a {
     color: #414535;
     text-decoration: none;
   }
-
+  nav ul li a:visited {
+    color: #96BBBB;
+  }
   nav ul li a:hover {
     color: #C0C0C0;
   }
@@ -61,6 +61,9 @@
   footer a {
     color: #414535;
   }
+  footer a:visited {
+      color: #96BBBB;
+ }
   footer a:hover {
     color: #C0C0C0;
   }
